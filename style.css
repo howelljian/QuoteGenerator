@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2f005f;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.quote-box {
+    margin: 20px;
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.new-quote-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #00078e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: monospace;
+}
+
+.new-quote-button:hover {
+    background-color: #001730;
+}
